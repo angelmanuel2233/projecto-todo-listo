@@ -1,0 +1,13 @@
+.counter {
+  text-align: center;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 48px;
+}
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
