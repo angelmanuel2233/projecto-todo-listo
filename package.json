@@ -1,26 +1,18 @@
 {
-  "name": "projecto-todo-listo",
+  "name": "contador",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Contador interactivo con TypeScript y Docker",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/angelmanuel2233/projecto-todo-listo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/angelmanuel2233/projecto-todo-listo/issues"
-  },
-  "homepage": "https://github.com/angelmanuel2233/projecto-todo-listo#readme",
   "devDependencies": {
-    "@types/node": "^24.5.2",
-    "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0"
   }
 }
+
+
